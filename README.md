@@ -7,7 +7,7 @@ load_dotenv()
 client = OpenAI()
 
 # create assistant or use exisiting assistant id 
-assistant_id = "asst_hQUAeMD9gVrxzoby0bX35XkF"
+assistant_id = "id"
 # create thread
 thread = client.beta.threads.create()
 
